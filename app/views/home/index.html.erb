@@ -1,0 +1,9 @@
+<h1>Envoyer des Tweet</h1>
+
+<%= form_tag (home_index_path) do %>
+
+<%= text_field_tag :tweet, '', :class => "form-control" %>
+
+<%= submit_tag "tweet mon con", :class => "btn btn-default" %>
+
+<% end %>
